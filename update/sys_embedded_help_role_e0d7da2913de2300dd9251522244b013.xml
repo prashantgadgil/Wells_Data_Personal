@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_pinr_wells_data.well_task_user" name="x_pinr_wells_data.well_task_user">a4d7da2913de2300dd9251522244b011</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>gadgi161</sys_created_by>
+        <sys_created_on>2018-12-10 17:51:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e0d7da2913de2300dd9251522244b013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a4d7da2913de2300dd9251522244b011</sys_name>
+        <sys_package display_value="Wells Data" source="x_pinr_wells_data">524337eb13c2ab00dd9251522244b046</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Data">524337eb13c2ab00dd9251522244b046</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e0d7da2913de2300dd9251522244b013</sys_update_name>
+        <sys_updated_by>gadgi161</sys_updated_by>
+        <sys_updated_on>2018-12-10 17:51:38</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

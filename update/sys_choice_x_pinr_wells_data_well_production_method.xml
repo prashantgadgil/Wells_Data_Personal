@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="production_method" table="x_pinr_wells_data_well" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>production_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pumping</label>
+            <language>en</language>
+            <name>x_pinr_wells_data_well</name>
+            <sequence>0</sequence>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2018-12-12 20:17:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>797c81da1352e300dd9251522244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2018-12-12 20:17:51</sys_updated_on>
+            <value>Pumping</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>production_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flowing</label>
+            <language>en</language>
+            <name>x_pinr_wells_data_well</name>
+            <sequence>1</sequence>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2018-12-12 20:17:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b97c81da1352e300dd9251522244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2018-12-12 20:17:51</sys_updated_on>
+            <value>Flowing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>production_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gas Lift</label>
+            <language>en</language>
+            <name>x_pinr_wells_data_well</name>
+            <sequence>2</sequence>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2018-12-12 20:17:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>397c81da1352e300dd9251522244b0a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2018-12-12 20:17:51</sys_updated_on>
+            <value>Gas Lift</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>production_method</element>
+            <name>x_pinr_wells_data_well</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2018-12-12 20:17:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a6d902121bb7a3002d60404ead4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>production_method</sys_name>
+            <sys_package display_value="Wells Data" source="x_pinr_wells_data">524337eb13c2ab00dd9251522244b046</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wells Data">524337eb13c2ab00dd9251522244b046</sys_scope>
+            <sys_update_name>sys_choice_x_pinr_wells_data_well_production_method</sys_update_name>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2018-12-12 20:17:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

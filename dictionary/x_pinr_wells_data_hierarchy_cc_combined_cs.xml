@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Hierarchy_CC_Combined_cs" max_length="40" name="x_pinr_wells_data_hierarchy_cc_combined_cs" sizeclass="87000" type="collection">
+        <element attributes="import_attribute_name=AREA,edge_encryption_enabled=true" label="AREA" max_length="40" name="u_area" type="string"/>
+        <element attributes="import_attribute_name=AREAAREASUPERINDENT_SK,edge_encryption_enabled=true" label="AREAAREASUPERINDENT_SK" max_length="40" name="u_areaareasuperindent_sk" type="string"/>
+        <element attributes="import_attribute_name=AREASUPERINDENT,edge_encryption_enabled=true" label="AREASUPERINDENT" max_length="40" name="u_areasuperindent" type="string"/>
+        <element attributes="import_attribute_name=AREA_NO,edge_encryption_enabled=true" label="AREA_NO" max_length="40" name="u_area_no" type="string"/>
+        <element attributes="import_attribute_name=AREA_SK,edge_encryption_enabled=true" label="AREA_SK" max_length="40" name="u_area_sk" type="string"/>
+        <element attributes="import_attribute_name=AREA_SRC,edge_encryption_enabled=true" label="AREA_SRC" max_length="40" name="u_area_src" type="string"/>
+        <element attributes="import_attribute_name=COMPANY,edge_encryption_enabled=true" label="COMPANY" max_length="40" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=COMPANY_SRC,edge_encryption_enabled=true" label="COMPANY_SRC" max_length="40" name="u_company_src" type="string"/>
+        <element attributes="import_attribute_name=COMP_SK,edge_encryption_enabled=true" label="COMP_SK" max_length="40" name="u_comp_sk" type="string"/>
+        <element attributes="import_attribute_name=COMP_SK_SRC,edge_encryption_enabled=true" label="COMP_SK_SRC" max_length="40" name="u_comp_sk_src" type="string"/>
+        <element attributes="import_attribute_name=COST_CENTER_CODE,edge_encryption_enabled=true" label="COST_CENTER_CODE" max_length="40" name="u_cost_center_code" type="string"/>
+        <element attributes="import_attribute_name=DISTRICT,edge_encryption_enabled=true" label="DISTRICT" max_length="40" name="u_district" type="string"/>
+        <element attributes="import_attribute_name=DISTRICT_NO,edge_encryption_enabled=true" label="DISTRICT_NO" max_length="40" name="u_district_no" type="string"/>
+        <element attributes="import_attribute_name=DISTRICT_SRC,edge_encryption_enabled=true" label="DISTRICT_SRC" max_length="40" name="u_district_src" type="string"/>
+        <element attributes="import_attribute_name=DIVISION,edge_encryption_enabled=true" label="DIVISION" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=DIVISION_NO,edge_encryption_enabled=true" label="DIVISION_NO" max_length="40" name="u_division_no" type="string"/>
+        <element attributes="import_attribute_name=DIVISION_SRC,edge_encryption_enabled=true" label="DIVISION_SRC" max_length="40" name="u_division_src" type="string"/>
+        <element attributes="import_attribute_name=FIELDNAME,edge_encryption_enabled=true" label="FIELDNAME" max_length="40" name="u_fieldname" type="string"/>
+        <element attributes="import_attribute_name=FOREMAN,edge_encryption_enabled=true" label="FOREMAN" max_length="40" name="u_foreman" type="string"/>
+        <element attributes="import_attribute_name=FOREMAN_NO,edge_encryption_enabled=true" label="FOREMAN_NO" max_length="40" name="u_foreman_no" type="string"/>
+        <element attributes="import_attribute_name=FOREMAN_SRC,edge_encryption_enabled=true" label="FOREMAN_SRC" max_length="40" name="u_foreman_src" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿cachekey" max_length="40" name="u_ï__cachekey" type="string"/>
+        <element attributes="import_attribute_name=PUMPER,edge_encryption_enabled=true" label="PUMPER" max_length="40" name="u_pumper" type="string"/>
+        <element attributes="import_attribute_name=PUMPER_NO,edge_encryption_enabled=true" label="PUMPER_NO" max_length="40" name="u_pumper_no" type="string"/>
+        <element attributes="import_attribute_name=PUMPER_NO_SRC,edge_encryption_enabled=true" label="PUMPER_NO_SRC" max_length="40" name="u_pumper_no_src" type="string"/>
+        <element attributes="import_attribute_name=PUMPER_SRC,edge_encryption_enabled=true" label="PUMPER_SRC" max_length="40" name="u_pumper_src" type="string"/>
+        <element attributes="import_attribute_name=SSN,edge_encryption_enabled=true" label="SSN" max_length="40" name="u_ssn" type="string"/>
+        <element attributes="import_attribute_name=UNIT,edge_encryption_enabled=true" label="UNIT" max_length="40" name="u_unit" type="string"/>
+        <element attributes="import_attribute_name=UNIT_SRC,edge_encryption_enabled=true" label="UNIT_SRC" max_length="40" name="u_unit_src" type="string"/>
+        <element attributes="import_attribute_name=UWI,edge_encryption_enabled=true" label="UWI" max_length="40" name="u_uwi" type="string"/>
+        <element attributes="import_attribute_name=UWI_SRC,edge_encryption_enabled=true" label="UWI_SRC" max_length="40" name="u_uwi_src" type="string"/>
+    </element>
+</database>

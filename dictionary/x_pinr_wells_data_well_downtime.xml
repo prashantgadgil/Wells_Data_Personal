@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Well Downtime" max_length="40" name="x_pinr_wells_data_well_downtime" sizeclass="15000" type="collection">
+        <element label="COMP_SK" max_length="40" name="comp_sk" type="string"/>
+        <element label="Downtime Code" max_length="32" name="downtime_code" reference="x_pinr_wells_confi_downtime_code" type="reference"/>
+        <element label="Downtime Days" max_length="40" name="downtime_days" type="integer"/>
+        <element label="Prod Date" max_length="40" name="prod_date" type="glide_date"/>
+        <element label="Reason" max_length="40" name="reason" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Well" max_length="32" name="well" reference="x_pinr_wells_data_well" type="reference"/>
+        <element label="Well Name" max_length="40" name="well_name" type="string"/>
+        <element label="Well Status" max_length="32" name="well_status" reference="x_pinr_wells_confi_well_status" type="reference"/>
+        <index name="index">
+            <element name="downtime_code"/>
+        </index>
+        <index name="index2">
+            <element name="well_status"/>
+        </index>
+        <index name="index3">
+            <element name="well"/>
+        </index>
+        <index name="index4">
+            <element name="prod_date"/>
+            <element name="comp_sk"/>
+        </index>
+    </element>
+</database>

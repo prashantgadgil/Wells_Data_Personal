@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="well_status" label="Well Status" language="en" table="x_pinr_wells_data_well_downtime">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>well_status</element>
+            <help/>
+            <hint/>
+            <label>Well Status</label>
+            <language>en</language>
+            <name>x_pinr_wells_data_well_downtime</name>
+            <plural>Well Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-08 20:08:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>20a6ff341b2faf402d60404ead4bcb6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Well Status</sys_name>
+            <sys_package display_value="Wells Data" source="x_pinr_wells_data">524337eb13c2ab00dd9251522244b046</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wells Data">524337eb13c2ab00dd9251522244b046</sys_scope>
+            <sys_update_name>sys_documentation_x_pinr_wells_data_well_downtime_well_status_en</sys_update_name>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-08 20:08:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

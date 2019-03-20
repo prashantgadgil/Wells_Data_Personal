@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3641b02a1bafa7802d60404ead4bcb6d" sys_domain="global" table="x_pinr_wells_data_well_downtime" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comp_sk</element>
+            <position>0</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>0e0113471ba7ab802d60404ead4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>well</element>
+            <position>1</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>8e0113471ba7ab802d60404ead4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>downtime_code</element>
+            <position>2</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>020113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>downtime_days</element>
+            <position>3</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>820113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>4</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>060113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>860113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>well_name</element>
+            <position>6</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>0a0113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>7</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>8a0113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>well_status</element>
+            <position>8</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>0e0113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prod_date</element>
+            <position>9</position>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-15 17:10:57</sys_created_on>
+            <sys_id>8e0113471ba7ab802d60404ead4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pinr_wells_data_well_downtime" sys_domain="global" view="Default view">3641b02a1bafa7802d60404ead4bcb6d</sys_ui_section>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-15 17:10:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_pinr_wells_data_well_downtime</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-13 16:16:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>3641b02a1bafa7802d60404ead4bcb6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pinr_wells_data_well_downtime</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Wells Data" source="x_pinr_wells_data">524337eb13c2ab00dd9251522244b046</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wells Data">524337eb13c2ab00dd9251522244b046</sys_scope>
+            <sys_update_name>sys_ui_section_3641b02a1bafa7802d60404ead4bcb6d</sys_update_name>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-13 16:16:05</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

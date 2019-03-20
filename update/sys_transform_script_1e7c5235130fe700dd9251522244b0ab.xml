@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Load Well Attributes from Hierarchy">cf631e7113cbe700dd9251522244b0e7</map>
+        <order>100</order>
+        <script><![CDATA[/**
+ * For variables go to: http://wiki.service-now.com/index.php?title=Transform_Map_Script#Transformation_Script_Variables
+ **/
+var x;
+//foreman
+if (!source.u_foreman_no.nil()) {
+	x="";
+// 	gs.error("Prashant  Checking length of source.u_foreman_no " + source.u_foreman_no);
+// 	gs.error("Prashant  Checked length of source.u_foreman_no " + source.u_foreman_no + "=" + source.u_foreman_no.toString().length);
+	
+	if (source.u_foreman_no.toString().length == 8) {
+		x = "0" + source.u_foreman_no.toString();
+		//gs.error("Prashant - Found foreman number 8 letters long " + x);
+	}
+	if (source.u_foreman_no.toString().length == 5) {
+		x = "0000" + source.u_foreman_no.toString();
+		//gs.error("Prashant - Found foreman number 5 letters long " + x);
+	}
+	if (x.length > 0) {
+		var gr = new GlideRecord("sys_user");
+		gr.addQuery('employee_number', x);
+		gr.query();
+		if (gr.next()) { 
+			target.foreman = gr.sys_id;
+			//gs.error("Prashant - Found foreman for employee number " + x);
+		}
+	}
+	else {
+		target.foreman = "";
+	}
+}
+else {
+	target.foreman = "";
+}
+
+// pumper
+if (!source.u_pumper_no.nil()) {
+	x="";
+// 	gs.error("Prashant  Checking length of source.u_pumper_no " + source.u_pumper_no);
+// 	gs.error("Prashant  Checked length of source.u_pumper_no " + source.u_pumper_no + "=" + source.u_pumper_no.toString().length);
+	
+	if (source.u_pumper_no.toString().length == 8) {
+		x = "0" + source.u_pumper_no.toString();
+	//	gs.error("Prashant - Found pumper number 8 letters long " + x);
+	}
+	if (source.u_pumper_no.toString().length == 5) {
+		x = "0000" + source.u_pumper_no.toString();
+	//	gs.error("Prashant - Found pumper number 5 letters long " + x);
+	}
+	if (x.length > 0) {
+		var gr2 = new GlideRecord("sys_user");
+		gr2.addQuery('employee_number', x);
+		gr2.query();
+		if (gr2.next()) { 
+			target.pumper = gr2.sys_id;
+			//gs.error("Prashant - Found pumper for employee number " + x);
+		}
+	}
+	else {
+		target.pumper = "";
+	}
+}
+else {
+	target.pumper = "";
+}
+
+
+// if (!source.u_pumper_no.nil()) {
+// 	var y = "0" + source.u_pumper_no;
+// 	gs.error("Processing check for user with pumper employee number = " + y);
+// 	var gr2 = new GlideRecord("sys_user");
+// 	gr2.addQuery('employee_number', y);
+// 	gr2.query();
+// 	if (gr2.next()) { 
+// 		target.pumper = gr2.sys_id;
+// 	}	
+// }
+// else {
+// 	target.pumper = "";
+// }
+
+
+// set federal well checkbox
+if (source.u_division == "WAT - ROCKIES") {
+	target.federal_well = true;
+}
+else {
+	target.federal_well = false;
+}
+
+]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>gadgi161</sys_created_by>
+        <sys_created_on>2019-01-17 19:38:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1e7c5235130fe700dd9251522244b0ab</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Wells Data" source="x_pinr_wells_data">524337eb13c2ab00dd9251522244b046</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Data">524337eb13c2ab00dd9251522244b046</sys_scope>
+        <sys_update_name>sys_transform_script_1e7c5235130fe700dd9251522244b0ab</sys_update_name>
+        <sys_updated_by>gadgi161</sys_updated_by>
+        <sys_updated_on>2019-02-13 15:22:26</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

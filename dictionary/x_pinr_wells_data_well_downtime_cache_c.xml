@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="WELL_DOWNTIME_CACHE_c" max_length="40" name="x_pinr_wells_data_well_downtime_cache_c" sizeclass="15000" type="collection">
+        <element attributes="import_attribute_name=comp_sk,edge_encryption_enabled=true" label="comp_sk" max_length="40" name="u_comp_sk" type="string"/>
+        <element attributes="import_attribute_name=days,edge_encryption_enabled=true" label="days" max_length="40" name="u_days" type="string"/>
+        <element attributes="import_attribute_name=downtime,edge_encryption_enabled=true" label="downtime" max_length="40" name="u_downtime" type="string"/>
+        <element attributes="import_attribute_name=hours,edge_encryption_enabled=true" label="hours" max_length="40" name="u_hours" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿cachekey" max_length="40" name="u_ï__cachekey" type="string"/>
+        <element attributes="import_attribute_name=mins,edge_encryption_enabled=true" label="mins" max_length="40" name="u_mins" type="string"/>
+        <element attributes="import_attribute_name=prod_date,edge_encryption_enabled=true" label="prod_date" max_length="40" name="u_prod_date" type="string"/>
+        <element attributes="import_attribute_name=reason,edge_encryption_enabled=true" label="reason" max_length="50" name="u_reason" type="string"/>
+        <element attributes="import_attribute_name=status,edge_encryption_enabled=true" label="status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=well_name,edge_encryption_enabled=true" label="well_name" max_length="40" name="u_well_name" type="string"/>
+    </element>
+</database>

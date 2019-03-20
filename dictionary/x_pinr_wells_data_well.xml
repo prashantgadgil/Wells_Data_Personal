@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Well" max_length="40" name="x_pinr_wells_data_well" sizeclass="21750" type="collection">
+        <element label="API" max_length="40" name="api" type="string"/>
+        <element label="Area" max_length="32" name="area" reference="x_pinr_wells_confi_area" type="reference"/>
+        <element label="COMP_SK" max_length="40" name="comp_sk" read_only="true" type="string"/>
+        <element label="Cost Center" max_length="40" name="cost_center" read_only="true" type="string"/>
+        <element label="County" max_length="32" name="county" read_only="true" reference="x_pinr_wells_confi_county" type="reference"/>
+        <element label="Division" max_length="32" name="division" reference="x_pinr_wells_confi_division" type="reference"/>
+        <element label="Drill RR Date" max_length="40" name="drill_rr_date" type="glide_date"/>
+        <element label="Engineer" max_length="32" name="engineer" reference="sys_user" type="reference"/>
+        <element label="Federal Well" max_length="40" name="federal_well" type="boolean"/>
+        <element label="Field" max_length="40" name="field" read_only="true" type="string"/>
+        <element label="Field Office" max_length="32" name="field_office" reference="x_pinr_wells_confi_field_office" type="reference"/>
+        <element label="Foreman" max_length="32" name="foreman" reference="sys_user" type="reference"/>
+        <element label="Formation" max_length="40" name="formation" type="string"/>
+        <element label="Landman" max_length="32" name="landman" reference="sys_user" type="reference"/>
+        <element label="Land Tech" max_length="32" name="land_tech" reference="sys_user" reference_qual="active=true^u_person_type=C^ORu_person_type=E^EQ" reference_qual_condition="active=true^u_person_type=C^ORu_person_type=E^EQ" type="reference"/>
+        <element label="Lattitude" max_length="40" name="lattitude" type="float"/>
+        <element label="Lease Operator" max_length="32" name="lease_operator" reference="sys_user" type="reference"/>
+        <element label="Legal Survey Location" max_length="80" name="legal_survey_location" type="string"/>
+        <element label="Location" max_length="40" name="location" read_only="true" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Name" max_length="40" name="name" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Ops Tech" max_length="32" name="ops_tech" reference="sys_user" type="reference"/>
+        <element label="OWID" max_length="40" name="owid" type="string"/>
+        <element choice="3" default="Pumping" label="Production Method" mandatory="true" max_length="40" name="production_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pumping" sequence="0" value="Pumping"/>
+                <element inactive_on_update="false" label="Flowing" sequence="1" value="Flowing"/>
+                <element inactive_on_update="false" label="Gas Lift" sequence="2" value="Gas Lift"/>
+            </choice>
+        </element>
+        <element label="Prop Sub" max_length="40" name="prop_sub" read_only="true" type="string"/>
+        <element label="Pumper" max_length="32" name="pumper" reference="sys_user" type="reference"/>
+        <element label="Spud Date" max_length="40" name="spud_date" type="glide_date"/>
+        <element label="State" max_length="32" name="state" read_only="true" reference="x_pinr_wells_confi_state" type="reference"/>
+        <element label="Supervisor" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+        <element label="Unit" max_length="32" name="unit" reference="x_pinr_wells_confi_unit" type="reference"/>
+        <element label="Well Status" max_length="32" name="well_status" reference="x_pinr_wells_confi_well_status" type="reference"/>
+        <element label="Well Type" max_length="40" name="well_type" type="string"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+        <index name="index2">
+            <element name="foreman"/>
+        </index>
+        <index name="index3">
+            <element name="well_status"/>
+        </index>
+        <index name="index4">
+            <element name="county"/>
+        </index>
+        <index name="index5">
+            <element name="ops_tech"/>
+        </index>
+        <index name="index6">
+            <element name="field_office"/>
+        </index>
+        <index name="index7">
+            <element name="landman"/>
+        </index>
+        <index name="index8">
+            <element name="engineer"/>
+        </index>
+        <index name="index9">
+            <element name="comp_sk"/>
+        </index>
+        <index name="index10">
+            <element name="division"/>
+        </index>
+        <index name="index11">
+            <element name="unit"/>
+        </index>
+        <index name="index12">
+            <element name="cost_center"/>
+        </index>
+        <index name="index13">
+            <element name="pumper"/>
+        </index>
+        <index name="index14">
+            <element name="land_tech"/>
+        </index>
+        <index name="index15">
+            <element name="state"/>
+        </index>
+        <index name="index16">
+            <element name="lease_operator"/>
+        </index>
+        <index name="index17">
+            <element name="supervisor"/>
+        </index>
+    </element>
+</database>

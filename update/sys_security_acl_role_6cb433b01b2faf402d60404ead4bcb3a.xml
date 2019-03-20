@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>gadgi161</sys_created_by>
+        <sys_created_on>2019-02-08 20:00:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6cb433b01b2faf402d60404ead4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_pinr_wells_data_well_downtime.x_pinr_wells_data.well_downtime_user</sys_name>
+        <sys_package display_value="Wells Data" source="x_pinr_wells_data">524337eb13c2ab00dd9251522244b046</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Data">524337eb13c2ab00dd9251522244b046</sys_scope>
+        <sys_security_acl display_value="x_pinr_wells_data_well_downtime">18b433b01b2faf402d60404ead4bcb36</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6cb433b01b2faf402d60404ead4bcb3a</sys_update_name>
+        <sys_updated_by>gadgi161</sys_updated_by>
+        <sys_updated_on>2019-02-08 20:00:26</sys_updated_on>
+        <sys_user_role display_value="x_pinr_wells_data.well_downtime_user" name="x_pinr_wells_data.well_downtime_user">d0b4b7b81bebaf402d60404ead4bcb9a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
